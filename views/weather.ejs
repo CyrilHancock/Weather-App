@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style2.css">
+    <title>Weather Show</title>
+</head>
+
+<body>
+
+
+
+
+    <div class="widget">
+
+        <div class="left-panel panel">
+            <div class="date">
+                <%= day%>
+            </div>
+            <div class="city">
+                <%= city %>
+            </div>
+            <div class="temp">
+                <img src="<%= image %>" alt="" width="120">
+                <%= description %>
+            </div>
+        </div>
+        <div class="right-panel panel">
+            <%= temperature %>&deg;
+        </div>
+
+    </div>
+</body>
+
+</html>
